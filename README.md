@@ -20,20 +20,6 @@ Forma turns a short project brief into a responsive website preview. It is a fro
 
 Uploaded images stay on the user's device. They are embedded into the generated HTML instead of being sent to a server. The current brief does not persist uploaded images after a page refresh.
 
-## Run locally on macOS
-
-1. Open this folder in Visual Studio Code with **File → Open Folder…**.
-2. Open the integrated terminal with **View → Terminal**.
-3. Start the server from the project folder:
-
-   ```sh
-   python3 -m http.server 8000 --bind 127.0.0.1
-   ```
-
-4. Open [http://localhost:8000](http://localhost:8000) in a browser.
-5. Keep the terminal open while using Forma. Press **Control+C** in the terminal to stop the server.
-
-If the browser shows a directory listing, the terminal is serving the wrong folder. Stop the server, use `cd` to move into this project folder, and start it again.
 
 The site uses Google Fonts and, when the user has not uploaded photos, sample images from Unsplash. Those remote assets need an internet connection.
 
